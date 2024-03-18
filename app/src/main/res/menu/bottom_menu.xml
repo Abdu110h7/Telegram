@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Xabar"
+        android:id="@+id/messageFragment"
+        android:icon="@drawable/message"/>
+    <item
+        android:id="@+id/callsFragment"
+        android:title="Qo`ng`iroq"
+        android:icon="@drawable/call"/>
+    <item android:title="Contacts"
+        android:id="@+id/contactFragment2"
+        android:icon="@drawable/user"/>
+    <item android:title="Sozlamalar"
+        android:icon="@drawable/settings"/>
+</menu>

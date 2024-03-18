@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_nav_graph"
+    app:startDestination="@id/phoneFragment">
+
+    <fragment
+        android:id="@+id/phoneFragment"
+        android:name="com.example.telegram.ui.login.phone.PhoneFragment"
+        android:label="PhoneFragment" />
+    <fragment
+        android:id="@+id/code_Fragment"
+        android:name="com.example.telegram.ui.login.code.Code_Fragment"
+        android:label="Code_Fragment" />
+    <fragment
+        android:id="@+id/fill_PersonFragment"
+        android:name="com.example.telegram.ui.login.data.fill_PersonFragment"
+        android:label="fragment_fill__person"
+        tools:layout="@layout/fragment_fill__person" />
+</navigation>

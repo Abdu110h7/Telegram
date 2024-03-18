@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginStart="@dimen/_10sdp"
+android:layout_marginTop="@dimen/_10sdp"
+    android:paddingHorizontal="@dimen/_10sdp"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<TextView
+    android:id="@+id/messageTxt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_chat"
+    android:hint="Salom mening ismim Abdulloh"
+    android:maxWidth="@dimen/_200sdp"
+    android:paddingHorizontal="@dimen/_7sdp"
+    android:paddingVertical="@dimen/_5sdp"
+    android:textColorHint="#000000"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+<TextView
+    android:id="@+id/timeMessage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="09:30 AM"
+    android:textColor="#818080"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:textSize="@dimen/_10ssp"
+    app:layout_constraintEnd_toEndOf="@+id/messageTxt"
+    app:layout_constraintTop_toBottomOf="@+id/messageTxt" />
+</androidx.constraintlayout.widget.ConstraintLayout>
